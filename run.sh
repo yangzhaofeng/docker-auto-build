@@ -1,8 +1,8 @@
 #!/bin/bash
 
 curl -X POST $DANTED
-curl -X POST $ALIYUN-DDNS
-curl -X POST $HIDDEN-SFTP
+curl -X POST $ALIYUN_DDNS
+curl -X POST $HIDDEN_SFTP
 curl -X POST $STRONGSWAN
 curl -X POST $BIND9
 curl -X POST $OCSERV
