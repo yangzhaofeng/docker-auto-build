@@ -1,7 +1,20 @@
 language: bash
 env:
   global:
-  
+  # $DANTED
+  - 
+  # $ALIYUN-DDNS
+  - 
+  # $HIDDEN-SFTP
+  - 
+  # $STRONGSWAN
+  - 
+  # $BIND9
+  - 
+  # $OCSERV
+  - 
+  # $OPENVPN
+  - 
   
 before_install:
   - sudo apt-get update
