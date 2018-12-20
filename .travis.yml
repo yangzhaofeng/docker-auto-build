@@ -17,7 +17,7 @@ env:
   - secure: "lMAs9BxWmpU19NVjSE+5Lz3+Mr3inTCWvWVr3Z5ISV5JH8zuZFHTI5YAfEhcinjB1Ix4OUKUZxZGurX9LIJ2d6S/ZTDPCJ89v5jYztkfZESQsHYE3oJVhnhl1iWv/nOp3OSPJqEk+c8FgW1QUfEx3CK05A02uOpwWgyv9aeHz/e2IN9x95IfLPrQ+XG5/FJMgUdnVHZBgTf5eFWfOmzl4vciH8UZQh7E80wZ3FWLs+a9SHRJphMZfkds1ctMILiMKs44UwrMIzD3wHwsLnQDlJTVg/nrEqIxU8K9/C2TWfck0GJzo2UaWNZEiIC3It5weluZ+OSypmKIcLzrmHqBsK3ZeV47aNWerthMUPoP+JTeb6z0+6HmS8r7v+UTmmgUsIck3OJDghR9H8m2rXP+dSxjTN5jUO1Jhms917GNuOkEUvxI120Iq7LsK7Ku0a6WJpbC7/DE7oFiZBZ35EZsnG4G2a3ZV8jxS13VVQgvvVoMAWA3pdAgIrI+GGqxXJburu7yCwD4pRpALj27BiIgJ5bX0AJRQn+W6NI6GX84BAz+xiNto+3tzsWK6R9JlALt1LfVjlHZj3yUwwnWoKGO94+lGgefRu3uz5NmSZkFCwM/HOAPWO+uchSd2ES8LAuqQCWksrQm2XJG5+V1rbT8eAYMXZmQnlbkG0mhXLP58dQ="
   
 before_install:
-  - sudo apt-get update
+  - sudo apt-get update && apt-get upgrade -y
   - sudo apt-get install -y curl
   
 script:
