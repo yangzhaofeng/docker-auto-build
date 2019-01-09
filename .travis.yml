@@ -20,7 +20,8 @@ env:
 
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y curl libcurl3
+  - sudo apt-get install -y \
+      curl libcurl3 multiarch-support libc6 libgssapi-krb5-2 libidn11 libldap-2.4-2 librtmp0 libssl1.0.0 zlib1g ca-certificates 
   
 script:
   - set -e
