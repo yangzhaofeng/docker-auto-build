@@ -8,7 +8,7 @@ curl -X POST $BIND9
 curl -X POST $OCSERV
 curl -X POST $OPENVPN
 curl -X POST $OPENVPN_SOCKS
-#curl -X POST
+curl -X POST $TOHOKU_ANIME
 #curl -X POST
 #curl -X POST
 #curl -X POST
