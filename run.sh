@@ -10,7 +10,7 @@ curl -X POST $OPENVPN
 curl -X POST $OPENVPN_SOCKS
 curl -X POST $TOHOKU_ANIME
 curl -X POST $CIDR_MERGE
-#curl -X POST
+curl -X POST $FREERADIUS
 #curl -X POST
 #curl -X POST
 #curl -X POST
