@@ -12,7 +12,7 @@ curl -X POST $TOHOKU_ANIME
 curl -X POST $CIDR_MERGE
 curl -X POST $FREERADIUS
 curl -X POST $LUGFTP
-#curl -X POST
+curl -X POST $NGINX
 #curl -X POST
 #curl -X POST
 #curl -X POST
